@@ -111,13 +111,6 @@
 #endif
 
 //==============================================================================
-// juce_audio_plugin_client flags:
-
-#ifndef    JUCE_FORCE_USE_LEGACY_PARAM_IDS
- //#define JUCE_FORCE_USE_LEGACY_PARAM_IDS
-#endif
-
-//==============================================================================
 // juce_audio_processors flags:
 
 #ifndef    JUCE_PLUGINHOST_VST
@@ -260,10 +253,10 @@
  #define JucePlugin_ManufacturerEmail      ""
 #endif
 #ifndef  JucePlugin_ManufacturerCode
- #define JucePlugin_ManufacturerCode       0x4d616e75 // 'Manu'
+ #define JucePlugin_ManufacturerCode       'Manu'
 #endif
 #ifndef  JucePlugin_PluginCode
- #define JucePlugin_PluginCode             0x5476306f // 'Tv0o'
+ #define JucePlugin_PluginCode             'Tv0o'
 #endif
 #ifndef  JucePlugin_IsSynth
  #define JucePlugin_IsSynth                0
